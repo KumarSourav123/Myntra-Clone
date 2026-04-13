@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.nav-bar{
+    height:80px;
+    background-color: #ffffff;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom:1px solid rgb(236, 229, 229);
+}
+
+.nav-logo{
+    height:80px;
+    width:55px;
+}
+
+.logo{
+    background-image: url("myntra-logo.jpg");
+    background-size: cover;
+    height:50px;
+    width:53px;
+    margin-top:10px;
+}
+
+.nav-men{
+    font-size:0.85rem;
+    font-weight:700;
+    
+}
+
+.nav-men:hover{
+    border-bottom:3px solid orange;   
+}
+
+.nav-women{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.nav-women:hover{
+    border-bottom:3px solid purple;   
+}
+
+.nav-kids{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.nav-kids:hover{
+    border-bottom:3px solid orange;   
+}
+
+.nav-home{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.nav-home:hover{
+    border-bottom:3px solid yellow;   
+}
+
+.nav-beauty{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.nav-beauty:hover{
+    border-bottom:3px solid blue;   
+}
+
+.nav-genz{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.nav-genz:hover{
+    border-bottom:3px solid blue;   
+}
+
+.nav-studio{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.nav-studio:hover{
+    border-bottom:3px solid pink;   
+}
+
+
+.nav-studio a sup{
+    color:red;
+}
+
+.nav-search{
+    width:400px;
+    background-color: #f5f5f6;
+}
+
+
