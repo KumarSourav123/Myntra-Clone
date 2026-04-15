@@ -1,104 +1,182 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: Figtree-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+    box-sizing: border-box;
 }
 
-.nav-bar{
-    height:80px;
-    background-color: #ffffff;
+/* Header-> */
+header{
+    display: flex;
     width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    border-bottom:1px solid rgb(236, 229, 229);
-}
-
-.nav-logo{
     height:80px;
-    width:55px;
+    background-color: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e4e0e0;
+    position:fixed;
+    top:0px;
 }
-
-.logo{
-    background-image: url("myntra-logo.jpg");
-    background-size: cover;
-    height:50px;
-    width:53px;
-    margin-top:10px;
+.logo-container{
+    margin-left:60px;
 }
-
-.nav-men{
-    font-size:0.85rem;
-    font-weight:700;
-    
+.myntra_home{
+    height:36px;
 }
-
-.nav-men:hover{
-    border-bottom:3px solid orange;   
+.nav-bar{
+    display:flex;
+    min-width:500px;
+    justify-content: space-evenly;
 }
-
-.nav-women{
-    font-size:0.85rem;
-    font-weight:700;
+.nav-bar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    padding:28px 0;
+    border-bottom: 5px solid #fff;
 }
-
-.nav-women:hover{
-    border-bottom:3px solid purple;   
+.nav-bar a:hover{
+    border-bottom: 5px solid #f54e77;
 }
-
-.nav-kids{
-    font-size:0.85rem;
-    font-weight:700;
+.nav-bar a sup{
+    color:#ff3f6c;
+    font-size:10px;
 }
-
-.nav-kids:hover{
-    border-bottom:3px solid orange;   
+.search-bar{
+    height:40px;
+    min-width:450px;
+    display:flex;
+    align-items: center;
+    min-width: 200px;
+    width:30%;
 }
-
-.nav-home{
-    font-size:0.85rem;
-    font-weight:700;
-}
-
-.nav-home:hover{
-    border-bottom:3px solid yellow;   
-}
-
-.nav-beauty{
-    font-size:0.85rem;
-    font-weight:700;
-}
-
-.nav-beauty:hover{
-    border-bottom:3px solid blue;   
-}
-
-.nav-genz{
-    font-size:0.85rem;
-    font-weight:700;
-}
-
-.nav-genz:hover{
-    border-bottom:3px solid blue;   
-}
-
-.nav-studio{
-    font-size:0.85rem;
-    font-weight:700;
-}
-
-.nav-studio:hover{
-    border-bottom:3px solid pink;   
-}
-
-
-.nav-studio a sup{
-    color:red;
-}
-
-.nav-search{
-    width:400px;
+.search_icon{
+    box-sizing: content-box;
+    height:20px;
+    padding:10px;
     background-color: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+    color: #282c3f;
+    font-weight: 300;
+}
+.search_input{   
+    background-color: #f5f5f6;
+    color :#696e79;
+    flex-grow: 1;
+    border-radius: 0 4px 4px 0;
+    height:40px;
+    border: none;
+}
+.action-bar{
+    margin-right:60px;
+    display:flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* Main-> */
+.banner_container{
+    margin:40px 0;
+}
+.banner_image{
+    width:100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 50px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items{
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: space-evenly; 
+}
+.rssale_item{
+    height:400px;
+    width:300px;
+}
+.lgsale_item{
+    height:355px;
+    width:250px;
+}
+.mbsale_item{
+    height:355px;
+    width:250px;
+}
+.ggbsale_item{
+    height:355px;
+    width:250px;
+}
+.scsale_item{
+    height:330px;
+    width:220px;
+    margin:10px;
+}
 
+/* Footer-> */
+.footer_container{
+    padding: 30px 0 40px 0;
+    background-color: #fafbfc;
+    display:flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3{
+    font-size: 14px;
+    color: #282c3f;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.footer_column a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.ft_image{
+    height:40px;
+    width:120px;
+}
+.ft_image_social{
+    height:20px;
+    width:20px;
+}
+.social_icons {
+    display: flex;
+    gap: 15px;          
+    align-items: center;
+}
+.ft_image_warranty{
+    width:48px;
+    height:40px;
+}
+.warranty_icons{
+    display:flex;
+    width:250px;
+    margin-bottom: 15px;
+}
+.copyright{
+    color: #94969f;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p a{
+    color:blue;
+}
