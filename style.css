@@ -85,7 +85,8 @@ header{
 
 /* Main-> */
 .banner_container{
-    margin:40px 0;
+    margin-top:100px;
+    margin-bottom: 40px;
 }
 .banner_image{
     width:100%;
@@ -171,12 +172,66 @@ header{
     width:250px;
     margin-bottom: 15px;
 }
+.searches{
+    margin-top:40px;
+    margin-left:150px;
+    margin-right:150px;
+}
+.searches_heading{
+    margin-top: -15px;
+    background: #fafbfc;
+    padding-right: 10px;
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: 700;
+}
+.popular_searches{
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top:15px;
+    text-align: justify;
+}
 .copyright{
     color: #94969f;
     padding:15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .copyright p a{
     color:blue;
+}
+.address{
+    margin-left:150px;
+    margin-right:150px;
+    display:flex;
+    margin-bottom:40px;
+}
+.address_container{
+    display: flex;
+    flex-direction: column;
+}
+.office{
+    font-weight: 700;
+    color: #282c3f;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.address_location{
+    color: #94969f;
+    font-size: 15px;
+    min-width:750px;
+}
+.contact{
+    margin-top:auto;
+}
+.contact p{
+    color: #94969f;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 20px;
+}
+.contact p a{
+    color: #526cd0;
+    font-weight: 700;
 }
