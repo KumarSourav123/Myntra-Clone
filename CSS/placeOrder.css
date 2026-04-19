@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Figtree-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+    box-sizing: border-box;
+}
+footer{
+    display:flex;
+    gap:10px;
+}
+
+
+footer p{
+    font-weight: 500;
+}
+
+.arrow{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+} 
+
+.tick{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: rgb(44, 224, 185);
+} 
+
+.order-success{
+    font-weight: 700;
+    color: rgb(44, 224, 185);
+    letter-spacing: 1.2px;
+}
+.check{
+    margin-left: 12px;
+    margin-top: 12px;
+}
